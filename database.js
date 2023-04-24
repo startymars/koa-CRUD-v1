@@ -16,13 +16,11 @@ const connection = mysql.createPool({
 // 取得連線池的連線
 connection.getConnection(function (err, conn) {
     if (err) {
-        console.log("連線錯誤", err)
+        console.log("哭啊連線錯誤！ ミ●﹏☉ミ", err)
     }
     else {
         // 成功取得可用連線
-        // 使用取得的連線
-        console.log("成功取得連線");
-
+        console.log("成功取得連線!( ´ ▽ ` )ﾉ");
     }
 });
 
